@@ -1,0 +1,21 @@
+  trip_id   | drive_id | lighting | conditions | split | frames | frames_kept | pct_dropped | avg_speed_kmh 
+------------+----------+----------+------------+-------+--------+-------------+-------------+---------------
+ trip-04622 | drive_a  | Day      | Clouds     | train |     60 |          26 |        56.7 |          67.1
+ trip-03904 | drive_a  | Day      | Clouds     | train |     22 |          11 |        50.0 |          46.1
+ trip-02086 | drive_a  | Day      | Clouds     | val   |     60 |          32 |        46.7 |          17.6
+ trip-08888 | drive_a  | Day      | Clouds     | val   |     60 |          36 |        40.0 |           6.5
+ trip-07774 | drive_a  | Day      | Clouds     | train |     34 |          21 |        38.2 |          12.8
+ trip-06570 | drive_a  | Day      | Clouds     | train |     45 |          32 |        28.9 |            30
+ trip-04871 | drive_b  | Day      | Clouds     | train |     60 |          43 |        28.3 |          58.3
+ trip-00003 | drive_a  | Day      | Clouds     | train |     60 |          46 |        23.3 |          63.2
+ trip-08448 | drive_b  | Day      | Clouds     | train |     60 |          46 |        23.3 |          91.2
+ trip-02097 | drive_a  | Day      | Clouds     | train |     36 |          29 |        19.4 |          36.2
+(10 rows)
+
+ split | trips | frames_in | frames_kept | pct_kept | avg_speed_kmh 
+-------+-------+-----------+-------------+----------+---------------
+ train |    18 |       892 |         732 |     82.1 |          54.1
+ val   |     4 |       186 |         132 |     71.0 |          41.2
+ test  |     4 |       168 |         156 |     92.9 |          51.2
+(3 rows)
+
