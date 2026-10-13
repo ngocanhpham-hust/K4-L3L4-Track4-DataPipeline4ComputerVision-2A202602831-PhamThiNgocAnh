@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Họ và tên | `<điền>` |
+| Họ và tên | `2A202602831` |
 | MSSV (đúng bằng `LAB_STUDENT_ID` trong `.env`) | `<điền>` |
 | GitHub | `<điền: tên tài khoản>` |
 | Trip dùng cho bài tập sập và chạy lại (xem GUIDE, bước 5) | `<điền: trip-xxxxx>` |
